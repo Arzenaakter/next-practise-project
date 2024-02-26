@@ -1,10 +1,12 @@
-import Counter from "./components/Counter/Counter";
+import Counter from "@/components/Counter/Counter";
+
   export const metadata = {
   title: "Home"
  
 };
 
 const HomePage = () => {
+  throw new Error()
 
   return (
     <div className='ms-10'>
